@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+
+html {
+    scroll-behavior:smooth;
+}
+
+
+.atlas {
+    position: absolute;
+    left: 75px;
+    color: #736f6f;
+    font-size: 22px;
+   
+}
+
+
+body {
+	font-family: 'Ubuntu';
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background: url(https://media.istockphoto.com/id/1141191007/es/vector/deportes-conjunto-de-deportistas-de-diversas-disciplinas-deportivas-siluetas-vectoriales.webp?s=2048x2048&w=is&k=20&c=YyBX-jcAYWNYLkeErwG7el8ymclr2BuZfjBnq337SkI=) no-repeat center;
+    background-size: cover;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 63px;
+    background: #eee;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 109;
+    
+
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #736f6f;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: grey
+}
+ img {
+    width: 45px;
+    height: 45px;
+    position: sticky;
+    right: 1265px;
+    cursor: pointer;
+}
+
+.title {
+    margin-bottom: 10px;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ff8f00;
+}
+
+
+.titlefpc {
+    color: black;
+    font-size: 40px;
+    text-align: center;
+}
+
+.titlearticulos {
+    color: black;
+    font-size: 50px;
+}
+
+
+p {
+    padding: 0 100px;
+    margin-bottom: 40px;
+    color: #76607d;
+    text-align: center;
+    font-size: 20px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: -3px;
+    padding: 10px 40px;
+    border-radius: 15px;
+    color: #fff;
+    text-decoration: none;
+    background: #ff9000;
+    position: absolute;
+    left: 605px;
+}
+button{
+    border: 10px;
+    width: 670px;
+    height: 0px;
+}
+
+
+
+.textoropa {
+    color: white;
+    font-size: 22px;
+}
+
+.textofpc {
+    color: black;
+    font-size: 22px;
+}
+
+.textoart {
+    color: black;
+    font-size: 22px;
+}
+
+.content {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    background: #d8dad8;
+    color: #444141;
+
+}
+
+.saucers {
+    padding-bottom: 30px;
+    background: #2a2420;
+    color: #fff;
+}
+
+.price {
+    background: url(https://i1.wp.com/webadictos.com/media/2021/06/deportes-hot-sale.jpg?fit=1000%2C667&ssl=1) no-repeat center;
+    color: #fff;
+    text-align: center;
+    background-size: cover;
+}
+
+.contain {
+    max-width: 1055px;
+    margin: 0 auto;
+}
+
+.contact {
+    padding-top: 20px;
+    background: #362d27;
+    color: #fff;
+    padding-bottom: 60px;
+}
+
+
+
+
+
+
+/*.list-saucers figure::after {
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    background: #ff9000;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+.titulo {
+    position: relative;
+    right: 460px;
+    color: white;
+}
+
+
+
+
+
+
+.contentropa {
+    background: url(https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2016/03/156047-ropa-deportiva-inteligente.jpg?tf=3840x) no-repeat center;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contentfpc {
+    background: url(https://eldeportivo.com.co/wp-content/uploads/2022/10/Jaramillo-hablo-del-cambio-de-formato-para-el-2023.png) no-repeat center;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*footer{
+    margin: 0%;
+    padding: 0%;
+    background-color: #362d27
+}*/
+
+footer {
+	padding: 30px;
+	background-color: #eee;
+	margin-top: 50px;
+	color: #eee;
+}
+ul {
+    list-style: none;
+    
+}
+.list-saucers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-saucers figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    position: relative;
+    width: 122px;
+    height: 100px;
+}
+.list-saucers img {
+    width: 60px;
+    height: 60px;
+	cursor: pointer;
+}
+.list-saucers li {
+    padding: 0 30px;
+}
+
+.list-saucers figcaption {
+	color: #222;
+	position: absolute;
+    left: 0px;
+    bottom: -3px;
+}
